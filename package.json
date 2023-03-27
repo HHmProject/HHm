@@ -4,6 +4,7 @@
   "description": "초보 개발자를 위한 커뮤니티 게시판",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/HHmProject/HHm/issues"
   },
-  "homepage": "https://github.com/HHmProject/HHm#readme"
+  "homepage": "https://github.com/HHmProject/HHm#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
 }
