@@ -1,0 +1,19 @@
+{
+  "name": "hhm",
+  "version": "1.0.0",
+  "description": "초보 개발자를 위한 커뮤니티 게시판",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HHmProject/HHm.git"
+  },
+  "author": "HHm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HHmProject/HHm/issues"
+  },
+  "homepage": "https://github.com/HHmProject/HHm#readme"
+}
