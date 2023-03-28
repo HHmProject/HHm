@@ -4,8 +4,9 @@
   "description": "초보 개발자를 위한 커뮤니티 게시판",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd server && nodemon server",
+    "client": "cd client && yarn start",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,11 @@
   },
   "homepage": "https://github.com/HHmProject/HHm#readme",
   "dependencies": {
+    "concurrently": "^7.6.0",
     "express": "^4.18.2",
-    "mongoose": "^7.0.3",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }
